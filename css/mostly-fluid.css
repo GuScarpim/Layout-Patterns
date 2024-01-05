@@ -1,0 +1,56 @@
+/* mostly-fluid.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: border-box;
+  padding: 20px;
+  height: 160px;
+  background-color: #2ecc71;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.half-width {
+  flex: 1 0 48%;
+}
+
+.full-width {
+  flex: 1 0 100%;
+  background-color: #3498db;
+}
+
+.half-width:nth-child(3) {
+  background-color: #e74c3c;
+}
+
+.quarter-width {
+  flex: 1 0 23%;
+  background-color: #f39c12;
+}
+
+.three-quarters-width {
+  flex: 1 0 73%;
+  background-color: #9b59b6;
+}
+
+.quarter-width:nth-child(5) {
+  background-color: #34495e;
+}
+
+@media (max-width: 600px) {
+  .box {
+    flex: 1 0 100%;
+  }
+  .container {
+    width: 100%;
+  }
+}

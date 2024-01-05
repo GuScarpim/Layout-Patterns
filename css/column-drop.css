@@ -1,0 +1,33 @@
+/* column-drop.css */
+.container-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-column {
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px);
+}
+
+.quarter-width {
+  background-color: #3498db;
+  /* width: 25%; */
+}
+
+.half-width {
+  background-color: #2ecc71;
+  /* width: 50%; */
+}
+
+.full-width {
+  background-color: #f39c12;
+  /* width: 25%; */
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: calc(100% - 20px);
+  }
+}
