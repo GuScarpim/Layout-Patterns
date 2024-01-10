@@ -1,0 +1,55 @@
+/* off-canvas.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  /* Evita a barra de rolagem horizontal quando o menu está aberto */
+}
+
+.container {
+  display: flex;
+  transition: margin-left 0.5s;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.menu {
+  width: 250px;
+  background-color: #333;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  overflow-y: auto;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.menu a {
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+header {
+  margin-top: 80px;
+  text-align: left;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/global.css" rel="stylesheet">
+
+  <!-- Link to Shifter Layout CSS -->
+  <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <a href="/index.html">Mostly Fluid</a>
+      <a href="/column-drop.html">Column Drop</a>
+      <a href="/shifter.html">Shifter</a>
+      <a href="/off-canvas.html">Off Canvas</a>
+      <a href="/tiny-tweaks.html">Tiny Tweaks</a>
+    </div>
+
+    <div class="main-content">
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <h1>Off Canvas Layout</h1>
+      <p>Your content here.</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      const container = document.querySelector('.container');
+      const mainContent = document.querySelector('.main-content');
+
+      if (menu.style.left === "0px") {
+        menu.style.left = "-250px";
+        container.style.marginLeft = "0";
+        mainContent.style.marginLeft = "0";
+      } else {
+        menu.style.left = "0";
+        container.style.marginLeft = "250px";
+      }
+    }
+  </script>
+
+</body>
+
+</html>

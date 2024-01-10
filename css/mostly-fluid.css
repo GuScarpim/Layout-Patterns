@@ -1,9 +1,7 @@
 /* mostly-fluid.css */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+header {
+  margin-top: 80px;
+  text-align: left;
 }
 
 .container {
@@ -13,10 +11,11 @@ body {
 
 .box {
   box-sizing: border-box;
-  padding: 20px;
   height: 160px;
   background-color: #2ecc71;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
 }
 
 .half-width {
@@ -50,6 +49,7 @@ body {
   .box {
     flex: 1 0 100%;
   }
+
   .container {
     width: 100%;
   }
