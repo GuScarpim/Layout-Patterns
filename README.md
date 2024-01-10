@@ -1,7 +1,8 @@
 ## Hello, my name is **Gustavo Scarpim**, and today I will talk a bit about **Layout Patterns**.
 
-Post Dev PT (https://dev.to/guscarpim/layout-patterns-pt-45c5)[https://dev.to/guscarpim/layout-patterns-pt-45c5]
-Post Dev EN (https://dev.to/guscarpim/layout-patterns-en-2p27)[https://dev.to/guscarpim/layout-patterns-en-2p27]
+Post Dev PT [https://dev.to/guscarpim/layout-patterns-pt-45c5](https://dev.to/guscarpim/layout-patterns-pt-45c5)
+
+Post Dev EN [https://dev.to/guscarpim/layout-patterns-en-2p27](https://dev.to/guscarpim/layout-patterns-en-2p27)
 
 ---
 
